@@ -7,7 +7,7 @@ http
       routes[req.pathname]({ abhishek: "gupta" }, () => {
         res.end("Hello World\n");
       });
-    else res.end("Not found");
+    else res.end("Not found\n");
   })
   .listen(3000, () => {
     console.log("Server is listening at port at 3000");
