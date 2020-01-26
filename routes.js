@@ -4,7 +4,10 @@
 
 let routes = {};
 
-routes.sample = () => {};
+routes.sample = (data, callback) => {
+  callback(data);
+};
+
 routes.user = () => {};
 
 module.exports = routes;
